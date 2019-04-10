@@ -1,7 +1,22 @@
-.parallax img {
-    height: 10%;
+/*
+
+*/
+
+.parallaxtop {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-site-6ceb0.appspot.com/o/peggfull%20(3).jpg?alt=media&token=6534fa2e-71a5-4481-9f8a-214ecd3488ac');
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
+
+.parallaxmid {
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/portfolio-site-6ceb0.appspot.com/o/pagefull%20(2).jpg?alt=media&token=f5246b04-63ac-44ce-a11a-1f41583a9210');
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+

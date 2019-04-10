@@ -1,51 +1,141 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Libre+Franklin" rel="stylesheet">
+</head>
 
-    <body>
+<body style="background-color: #111">
 
-        <ul id="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li class="currentpage"><a href="contact.html">Contact</a></li>
-            </ul>
-        
-            <div class="container">
-                <div class="parallaxtop"></div>
-            </div>
+    <div class="container bg-dark text-white">
 
-        <h1 class="center baskerville">Contact Me</h1>
+        <div class="container bg-dark sticky-top">
+            <nav class="navbar navbar-inverse navbar-toggleable-xl">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Trevor Holmes</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <!-- <li class="active"><a href="#">Home</a></li> -->
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
-        <table class="franklin">
+        <img class="img-fluid rounded mx-auto d-block" style="max-width:50%"
+            src="https://firebasestorage.googleapis.com/v0/b/portfolio-site-6ceb0.appspot.com/o/20190129_182720%20(2).jpg?alt=media&token=7c785d99-44ca-458d-b2c2-a30aad5845e3">
+
+        <h1 class="text-center">Contact Me</h1>
+
+        <table class="table table-dark">
             <tr>
-                <td>Email (School)</td>
+                <td><i class="fas fa-envelope-square"></i> Email (School)</td>
                 <td><a href="mailto: holm0218@algonquinlive.com">holm0218@algonquinlive.com</a></td>
             </tr>
             <tr>
-                <td>Email (Personal)</td>
+                <td><i class="fas fa-envelope-square"></i> Email (Personal)</td>
                 <td><a href="mailto: holmes.trevor98@gmail.com">holmes.trevor98@gmail.com</a></td>
             </tr>
             <tr>
-                <td>LinkedIn</td>
+                <td><i class="fab fa-linkedin-in"></i> LinkedIn</td>
                 <td><a href="https://www.linkedin.com/in/trevor-holmes-0447b5162/">Trevor Holmes</a></td>
             </tr>
             <tr>
-                <td>GitHub</td>
+                <td><i class="fab fa-github"></i> GitHub</td>
                 <td><a href="https://www.github.com/holmestrevor">holmestrevor</a></td>
             </tr>
         </table>
 
-        <div style="height: 100px;"></div>
+        <div style="height: 150px"></div>
 
-        <div id="footer">
-            
-        </div>
+        <!-- From mdboostrap.com/docs/jquery/navigation/footer -->
+        <!-- Footer -->
+        <footer class="page-footer">
 
-    </body>
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 mt-md-0 mt-3">
+
+                        <!-- Content -->
+                        <h5 class="text-uppercase">Thanks for visiting!</h5>
+                        <p>Have a question? Feel free to contact me!</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="clearfix w-100 d-md-none pb-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 mb-md-0 mb-3">
+
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="mailto: holm0218@algonquinlive.com"><i class="fas fa-envelope-square"></i>
+                                    holm0218@algonquinlive.com</a>
+                            </li>
+                            <li>
+                                <a href="mailto: holmes.trevor98@gmail.com"><i class="fas fa-envelope-square"></i>
+                                    holmes.trevor98@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/trevor-holmes-0447b5162/"><i
+                                        class="fab fa-linkedin-in"></i> Trevor Holmes</a>
+                            </li>
+                            <li>
+                                <a href="https://www.github.com/holmestrevor"><i class="fab fa-github"></i>
+                                    holmestrevor</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright: Trevor Holmes. Do not use artworks from
+                this site without approval.
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+    </div>
+
+
+</body>
 
 </html>

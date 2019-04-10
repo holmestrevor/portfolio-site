@@ -3,8 +3,6 @@ File:   style.css
 Author: Trevor Holmes
 */
 
-@import "node_modules/react-image-gallery/styles/css/image-gallery.css";
-
 *{
     margin: 0;
     padding: 0;
